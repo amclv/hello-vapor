@@ -12,6 +12,10 @@ func routes(_ app: Application) throws {
         return "HELLO"
     }
     
+    app.get("test") { req in
+        return "Test"
+    }
+    
     //route groupes
     // /users/12
     // /users
